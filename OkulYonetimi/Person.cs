@@ -8,11 +8,9 @@ namespace SchoolBoard
 {
     public class Person
     {
-        private string Name
-        {
-            get
-            {
-                return Name;
+        public string Name { get; set; } // Public özellik
+        public string Surname { get; set; } // Public özellik
+        public DateTime DateBirth { get; set; } // Public özellik
             }
             set
             {
