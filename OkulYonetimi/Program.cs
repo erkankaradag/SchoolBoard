@@ -28,7 +28,7 @@ namespace SchoolBoard
                 DateBirth = new DateTime(1995, 7, 29)
             };
 
-            Console.WriteLine("--------------Öğretmen Listesi-----------------\n");
+            Console.WriteLine("--------------Teacher List-----------------\n");
 
             PrintPersonDetails(teacher1);
             Console.WriteLine("---------------------");
@@ -55,7 +55,7 @@ namespace SchoolBoard
                 DateBirth = new DateTime(2001, 1, 18)
             };
 
-            Console.WriteLine("\n--------------Öğrenci Listesi-----------------\n");
+            Console.WriteLine("\n--------------Student List-----------------\n");
             PrintPersonDetails(student1);
             Console.WriteLine("---------------------");
             PrintPersonDetails(student2);
@@ -63,7 +63,7 @@ namespace SchoolBoard
             PrintPersonDetails(student3);
         }
 
-        static void PrintPersonDetails(Person person)
+        static void PrintPersonDetails(Person person) // KOD KALABALIĞINDAN KURTULMAK İÇİN ÖĞRENCİ VE ÖĞRETMENLERİN BİLGİLERİNİ EKRANA YAZDIRAN METOT
         {
             Console.WriteLine($"Adı: {person.Name}");
             Console.WriteLine($"Soyadı: {person.Surname}");
