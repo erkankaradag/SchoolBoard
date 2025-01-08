@@ -6,11 +6,40 @@ using System.Threading.Tasks;
 
 namespace SchoolBoard
 {
-    internal class Person
+    public class Person
     {
-        public string Name  { get; set; }
-        public string Surname { get; set; }
-        public DateTime DateBirth { get; set; }
+        private string Name
+        {
+            get
+            {
+                return Name;
+            }
+            set
+            {
+                Name = value;
+            }
+        }
+        private string Surname
+        {
+            get
+            {
+                return Surname;
+            }
+            set
+            {
+                Surname = value;
+            }
+        }
+        private DateTime DateBirth
+        {
+            get
+            {
+                return DateBirth;
+            }
+            set
+            {
+                DateBirth = value;
+            }
+        }
     }
 }
- 
